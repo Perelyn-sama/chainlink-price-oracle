@@ -42,7 +42,7 @@ class App extends Component {
     const response = await contract.methods.getThePrice().call();
 
     // Update state with the result.
-    this.setState({ price: response });
+    this.setState({ price: response / 10 ** 8 });
   };
 
   render() {
