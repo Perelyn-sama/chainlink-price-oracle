@@ -5,7 +5,7 @@ import getWeb3 from "./getWeb3";
 import "./App.css";
 
 class App extends Component {
-  state = { price: 0, web3: null, accounts: null, contract: null };
+  state = { price: null, web3: null, accounts: null, contract: null };
 
   componentDidMount = async () => {
     try {
@@ -25,7 +25,8 @@ class App extends Component {
 
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
-      this.setState({ web3, accounts, contract: instance }, this.runExample);
+      this.setState({ web3, accounts, contract: instance });
+      // this.setState({ web3, accounts, contract: instance }, this.runExample);
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(
@@ -51,6 +52,7 @@ class App extends Component {
     }
     return (
       <div className="App">
+        <button onClick={this.runExample}>Get Eth Price</button>
         <div>Current eth price is {this.state.price}</div>
       </div>
     );
