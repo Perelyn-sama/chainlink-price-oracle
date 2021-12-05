@@ -7,8 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "2.0.0",
-    "@chainlink/contracts/": "0.2.2"
+    "@chainlink/contracts": "^0.2.2",
+    "@truffle/hdwallet-provider": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
