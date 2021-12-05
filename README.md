@@ -2,6 +2,16 @@
 
 ## To get this repo working on your machine
 
+### You need a make a file to keep your mnemonic and infura project id
+
+`touch .secrets.json`
+
+Your .secrets.json file should look like this
+
+`{ "mnemonic": <your mnemonic>, "projectId": <your project Id> }`
+
+###
+
 ### Install npm packages in root folder
 
 `npm install`
