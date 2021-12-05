@@ -2,9 +2,17 @@
 
 ## To get this repo working on your machine
 
+### Install npm packages in root folder
+
+`npm install`
+
 ### Compile smart contracts
 
 `truffle compile`
+
+### Before you can deploy the contracts you'll need kovan-testnet ether
+
+#### You can get some by pasting your eth address at https://gitter.im/kovan-testnet/faucet or https://ethdrop.dev/ then you will have to switch to the kovan network on your metamask
 
 ### Then deploy to the Kovan test net
 
