@@ -1,6 +1,6 @@
 # Chainlink price oracle
 
-## To get this repo working on your local machine
+## To get this repo working on your machine
 
 ### Compile smart contracts
 

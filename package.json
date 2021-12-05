@@ -1,7 +1,7 @@
 {
-  "name": "chain",
+  "name": "chainlink-price-oracle",
   "version": "1.0.0",
-  "description": "`truffle compile`",
+  "description": "`Getting the prices of cryptocurrencies with smart contracts`",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
