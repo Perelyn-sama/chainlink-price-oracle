@@ -1,0 +1,28 @@
+{
+  "name": "chain",
+  "version": "1.0.0",
+  "description": "`truffle compile`",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "2.0.0",
+    "@chainlink/contracts/": "0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perelyn-sama/chainlink-price-oracle-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perelyn-sama/chainlink-price-oracle-/issues"
+  },
+  "homepage": "https://github.com/Perelyn-sama/chainlink-price-oracle-#readme"
+}
