@@ -32,4 +32,6 @@ Your .secrets.json file should look like this
 
 `cd client`
 
+`npm install`
+
 `yarn start or npm start`
